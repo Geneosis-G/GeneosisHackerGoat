@@ -1,0 +1,47 @@
+Goat only knows...
+
+Everyone around you seems to enjoy his life as a goat, but you are not like them... You know the truth about this reality... You know everything is fake... You know this world is just a simulation... And you have decided to escape!
+After days, month and maybe years lost in this simulation, your hacking device finally complete and ready to use. It's time so start breaking everything until [i]They[/i] set you free!
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[h1]IMPORTANT[/h1]: Be careful with the console. This is the original console of the game so you may see commands not created for this mod and usually used for debug. Don't use them randomly unless you know what you're doing.
+
+[b]FEATURES[/b]
+- Hacker Goat: You can hack the graphics and glitch objects and creatures around you.
+
+[b]COMMANDS[/b]
+- [b][Ctrl]:[/b] Hold to hack graphics every 2s.
+- [b][T]:[/b] Glitch nearby objects and creatures.
+- [b][Tab]:[/b] Open the hacking console.
+
+[b]GAMEPAD COMMANDS[/b]
+- [b][DPadDown]:[/b] Hold to hack graphics every 2s.
+- [b][LeftPadClick]:[/b] Glitch nearby objects and creatures.
+
+[b]CHARACTERISTICS[/b]
+- You can cycle through 5 types of hacked graphics: Normal / Shadowless / Colorless / Textureless / Wireframe.
+- Glitched objects and creatures have a random scale, random gravity and random speed.
+- Only the things you can lick are affected by the Glitch program.
+- The following commands are provided by this mod in the console:
+-- Login username password => Connect to the simulation.
+-- Logout => Disconnect from the simulation.
+- You can try to login as a simulation Administrator using those commands (if you can find the username and password :p).
+
+[b]EASTER EGGS[/b]
+- [spoiler]If you use the glitch program as an Administrator, everything near you will be affected: plants, rocks, buildings, etc...[/spoiler]
+- [spoiler]There is another pointless command added by this mod but not listed up there ;)[/spoiler]
+- [spoiler]Hint to find the Administrator username:[/spoiler][spoiler]This is a common default username used for Administrator accounts.[/spoiler]
+- [spoiler]Hint to find the Administrator password:[/spoiler][spoiler]It's also a common default password, and this is something you should never tell to someone :p[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- Entire parts of the map dissapeared after using the glitch program as an Administrator: Yes, this can happen, just restart the map if you don't like it.
+- You can end up stuck inside glitched structures. Try to glitch it a few other times, and if it's not working you can still respawn.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]One day, someone suggested on my request thread to give to a goat the ability to trigger the graphical effects of the server room found in the MMO map... That was an interesting thing for me to try and as you can see, I completed it with some other fun stuff I thought about myself :p
+So about the display change, this is something that can be done using debug commands in the console of the game. Hopefully, there is also a function in UnrealScript that let you call console commands through code, and that's what I used to make the graphics switch. This function called ConsoleCommand() was a bit tricky to use because it was possible to call it anywhere in the code, but it will only have an effect if you call it on one precise object >_<
+Then I started to implement my "glitch" ability and generated a random 3D scale for any object close to the goat when you activated. The result was amazing XD I also found that I could use this ability not only on physical objects (those yo ucan lick) but also on static objects (like plants or buildings). Anyway changing the scale of static objects was most of the time breaking huge parts of the world, so I restrained this power as an easter egg for those who find the Administrator username and password ;)
+Finally, I knew the game console was accessible in the game but I never tried to make custom functions that can be called directly from the console (also called exec functions). So as the theme of this mod was hacking, I decided to create two little functions Login() and Logout() that will let users play with the console ^^ Once again some weird problems appeared when I created the exec functions: for some reasons they can only be created in some precise classes so I was forced to create a separate class to handle those two functions.
+Also someone proposed to add the Rouge hood as an outfit for the Hacker Goat, I tried it, but the result was a bit dissapointing (it was looking a bit too "ancient" for me) so I removed it. Luckyly I found in the object library something that looked a lot like a smartphone or a tablet, so I decided to reuse this item to give a little high-tech tool to my Hacker Goat :D
+[/quote]
